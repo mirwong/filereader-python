@@ -1,14 +1,14 @@
-from Kivy.app import App
-from Kivy.uix.widget import Widget
+from kivy.app import App
+from kivy.uix.widget import Widget
 
 
-class FilereaderScreen(Widget):
+class FilereaderWidget(Widget):
     pass
 
 
 class FilereaderApp(App):
     def build(self):
-        return FilereaderScreen()
+        return FilereaderWidget()
 
 
 if __name__ == '__main__':
